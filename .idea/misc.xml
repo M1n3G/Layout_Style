@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/junji/AndroidStudioProjects/My2pmHelloWorld/app/src/main/res/layout/activity_main.xml" value="0.19293478260869565" />
+        <entry key="..\:/Users/junji/AndroidStudioProjects/My2pmHelloWorld/app/src/main/res/drawable/dice_1.xml" value="0.158" />
+        <entry key="..\:/Users/junji/AndroidStudioProjects/My2pmHelloWorld/app/src/main/res/drawable/empty_dice.xml" value="0.158" />
+        <entry key="..\:/Users/junji/AndroidStudioProjects/My2pmHelloWorld/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
   </component>
