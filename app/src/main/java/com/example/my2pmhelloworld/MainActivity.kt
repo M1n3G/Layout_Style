@@ -1,14 +1,16 @@
 package com.example.my2pmhelloworld
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.view.inputmethod.InputMethodManager
 import android.widget.*
 
 class MainActivity : AppCompatActivity() {
     lateinit var diceImg :ImageView
     lateinit var numberText: TextView
-    lateinit var nameText: TextView
+    lateinit var nameText: EditText
     lateinit var playerName: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,6 +27,13 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateName(view: View){
         playerName.text = nameText.text
+
+        nameText.text.clear()
+        nameText.clearFocus()
+
+        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+
+        imm.hideSoftInputFromWindow(view.windowToken, 0)
     }
 
     private fun rollDice(){

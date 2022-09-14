@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">My2pmHelloWorld</string>
-    <string name="numberText">Hello</string>
+    <string name="numberText">Roll Dice</string>
     <string name="rollButton">ROLL</string>
+    <string name="rules">1. Choose a number and roll the dice. \n2. You score a point every time you roll that number. \n3. When you
+roll that number, you get another turn. \n4. When that number is not rolled, the turn is over. Mark the
+   tally for each time you roll the number. \n5. First one to a certain score of 10 points wins!</string>
+    <string name="playerName">Enter your name</string>
+    <string name="updateButton">UPDATE</string>
 </resources>
